@@ -1,0 +1,345 @@
+@media screen and (min-width:320px) and (max-width:480px) {
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: #C14600;
+  }
+  .hero h1{
+  font-size: 19px;
+  font-family: myfont-1;
+  letter-spacing: 1px;
+  }
+  .hero{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    padding: 50px 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  li {
+    display: flex;
+    gap: 10px;
+    color:black;
+    align-items: center;
+    border-radius: 10px;
+    padding: 5px 12px;
+    background-color:#FF9D23;
+  }
+  p {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    gap: 10px;
+    font-family: myfont-2;
+    line-height: 25px;
+    text-transform:capitalize;
+    word-wrap: break-word;
+    font-size: 16px;
+    max-width: 420px;
+    letter-spacing: 1px;
+  }
+  
+  .checkbox{
+    zoom: 1.2;
+    accent-color: black;
+    
+  }
+  .deleteBtn{
+    margin-left: auto; 
+    cursor: pointer;
+    font-size: 20px;
+   
+  }
+  
+  p.checkedlist{
+    text-decoration: line-through;
+    opacity: 40%;
+  }
+  
+  
+  .input{
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #E5D0AC;
+    width: 300px;
+    height:fit-content;
+    padding: 20px 20px;
+    align-items: baseline;
+    border-radius: 10px;
+  }
+  
+  .input-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+  }
+  .input input{
+    width: 190px;
+    height: 40px;
+    padding:10px;
+    outline: none;
+    border: 2px solid black;
+    font-size: 15px;
+    font-family: myfont-2;
+  }
+  .input button{
+    width: 65px;
+    height:40px;
+    background-color: black;
+    color: white;
+    font-size: 11px;
+    font-family: myfont-2;
+  }
+  
+  .result{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 0 5px;
+    width: 300px;
+    height: fit-content;
+  } 
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: #C14600;
+  }
+  .hero h1{
+  font-size: 29px;
+  font-family: myfont-1;
+  letter-spacing: 1.5px;
+  }
+  .hero{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    padding: 40px 0 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  li {
+    display: flex;
+    gap: 20px;
+    color:black;
+    align-items: center;
+    border-radius: 10px;
+    padding: 5px 20px;
+    background-color:#FF9D23;
+  }
+  p {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    gap: 10px;
+    font-family:myfont-2;
+    line-height: 25px;
+    text-transform:capitalize;
+    word-wrap: break-word;
+    font-size: 19px;
+    max-width: 420px;
+    letter-spacing: 1px;
+  }
+  
+  .checkbox{
+    zoom: 1.6;
+    accent-color: black;
+    border-radius: 50%;
+    
+  }
+  .deleteBtn{
+    margin-left: auto; 
+    cursor: pointer;
+    font-size: 25px;
+  }
+  
+  p.checkedlist{
+    text-decoration: line-through;
+    opacity: 40%;
+  }
+  
+  
+  .input{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #E5D0AC;
+    width: 450px;
+    height:fit-content;
+    padding: 30px 30px;
+    align-items: baseline;
+  border-radius: 10px;
+  }
+  
+  .input-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .input input{
+    width: 300px;
+    height: 50px;
+    padding:10px;
+    outline: none;
+    border: 2px solid black;
+    font-size: 18px;
+    font-family: myfont-2;
+  }
+  .input button{
+    width: 90px;
+    height:50px;
+    background-color: black;
+    color: white;
+  }
+  
+  .result{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 0 10px;
+    width: 450px;
+    height: fit-content;
+  }  
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+  @font-face {
+    font-family: myfont-1;
+    src: url(/fonts/akira_expanded/Akira\ Expanded\ Demo.otf);
+  }
+  @font-face {
+    font-family: myfont-2;
+    src: url(/fonts/sansation/Sansation_Bold.ttf);
+  }
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: #C14600;
+  }
+  .hero h1{
+  font-size: 35px;
+  font-family: myfont-1;
+  letter-spacing: 2px;
+  }
+  .hero{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    padding: 60px 0 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  li {
+    display: flex;
+    gap: 20px;
+    color:black;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color:#FF9D23;
+  }
+  p {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    gap: 10px;
+    font-family: myfont-2;
+    line-height: 25px;
+    text-transform:capitalize;
+    word-wrap: break-word;
+    font-size: 20px;
+    max-width: 420px;
+    letter-spacing: 1px;
+  }
+  
+  .checkbox{
+    zoom: 1.9;
+    accent-color: black;
+    border-radius: 50%;
+    
+  }
+  .deleteBtn{
+    margin-left: auto; 
+    cursor: pointer;
+    font-size: 30px;
+   
+  }
+  
+  p.checkedlist{
+    text-decoration: line-through;
+    opacity: 40%;
+  }
+  
+  
+  .input{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #E5D0AC;
+    width: 600px;
+    height:fit-content;
+    padding: 30px 50px;
+    align-items: baseline;
+  border-radius: 10px;
+  }
+  
+  .input-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .input input{
+    width: 400px;
+    height: 50px;
+    padding:10px;
+    outline: none;
+    border: 2px solid black;
+    font-size: 18px;
+    font-family: myfont-2;
+  }
+  .input button{
+    width: 100px;
+    height:50px;
+    background-color: black;
+    color: white;
+    font-family: myfont-2;
+  }
+  
+  .result{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px 0 10px;
+    width: 600px;
+    height: fit-content;
+  }
+  
+  
+  
+}

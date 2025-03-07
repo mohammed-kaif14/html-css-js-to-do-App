@@ -1,0 +1,118 @@
+@font-face {
+  font-family: myfont-1;
+  src: url(/fonts/akira_expanded/Akira\ Expanded\ Demo.otf);
+}
+@font-face {
+  font-family: myfont-2;
+  src: url(/fonts/sansation/Sansation_Bold.ttf);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #C14600;
+}
+.hero h1{
+font-size: 35px;
+font-family: myfont-1;
+letter-spacing: 2px;
+}
+.hero{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  padding: 60px 0 20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+li {
+  display: flex;
+  gap: 15px;
+  color:black;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color:#FF9D23;
+}
+p {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  gap: 10px;
+  font-family: myfont-2;
+  line-height: 30px;
+  text-transform:capitalize;
+  word-wrap: break-word;
+  font-size: 24px;
+  max-width: 420px;
+  letter-spacing: 1px;
+}
+
+.checkbox{
+  zoom: 1.9;
+  accent-color: black;
+  border-radius: 50%;
+  
+}
+.deleteBtn{
+  margin-left: auto; 
+  cursor: pointer;
+  font-size: 30px;
+ 
+}
+
+p.checkedlist{
+  text-decoration: line-through;
+  opacity: 40%;
+}
+
+
+.input{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #E5D0AC;
+  width: 600px;
+  height:fit-content;
+  padding: 30px 50px;
+  align-items: baseline;
+border-radius: 10px;
+}
+
+.input-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.input input{
+  width: 400px;
+  height: 50px;
+  padding:10px;
+  outline: none;
+  border: 2px solid black;
+  font-size: 20px;
+  font-family: myfont-2;
+}
+.input button{
+  width: 100px;
+  height:50px;
+  background-color: black;
+  color: white;
+  font-family: myfont-2;
+}
+
+.result{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px 0 10px;
+  width: 600px;
+  height: fit-content;
+}
+
